@@ -1,9 +1,9 @@
 class Zeus < Formula
   desc "An Electrifying Build System"
   homepage "https://github.com/dreadl0ck/zeus"
-  url "https://github.com/dreadl0ck/zeus/releases/download/v0.8.1/zeus_0.8.1_darwin_amd64.tar.gz"
-  version "0.8.1"
-  sha256 "1600545f2790db500932c858fcfdb8aa5440bcab67fb119b71674effcf2258dc"
+  url "https://github.com/dreadl0ck/zeus/releases/download/v0.8.2/zeus_0.8.2_darwin_amd64.tar.gz"
+  version "0.8.2"
+  sha256 "dea6fe3c62af8823c05088d9c01e367b9752f63ff8334e3652ca7b67d578f32c"
 
   def install
     bin.install "zeus"
