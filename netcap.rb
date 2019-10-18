@@ -2,9 +2,9 @@
 class Netcap < Formula
   desc "A framework for secure and scalable network traffic analysis"
   homepage "https://github.com/dreadl0ck/netcap"
-  url "https://github.com/dreadl0ck/netcap/releases/download/v0.4.0/netcap_0.4.0_darwin_amd64.tar.gz"
-  version "0.4.0"
-  sha256 "7f9fa327c1ce6d4839d884ade47220ed0bb35f11880bc1660611e9bf395d7921"
+  url "https://github.com/dreadl0ck/netcap/releases/download/v0.4.1/netcap_0.4.1_darwin_amd64.tar.gz"
+  version "0.4.1"
+  sha256 "800d3d56751a80a8a3bde3dbffe5d92b4d512951849b4cb06c622eadd3af871f"
 
   def install
     bin.install "net.capture"
