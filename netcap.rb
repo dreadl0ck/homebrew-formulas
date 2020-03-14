@@ -2,12 +2,12 @@
 class Netcap < Formula
   desc "A framework for secure and scalable network traffic analysis"
   homepage "https://github.com/dreadl0ck/netcap"
-  version "0.4.5"
+  version "0.4.6"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/dreadl0ck/netcap/releases/download/v0.4.5/netcap_0.4.5_darwin_amd64.tar.gz"
-    sha256 "8f275e46a5a409f0ca5f53a9f973d31811b74d9a9bc2dd4fe7003d82bad9bcb4"
+    url "https://github.com/dreadl0ck/netcap/releases/download/v0.4.6/netcap_0.4.6_darwin_amd64.tar.gz"
+    sha256 "7bab6b2135818b94adf8ff68685979eebe96981a320a96353b956a8b0a3a4dbd"
   elsif OS.linux?
   end
 
