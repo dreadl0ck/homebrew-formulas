@@ -2,16 +2,16 @@
 class Zeus < Formula
   desc "An Electrifying Build System"
   homepage "https://github.com/dreadl0ck/zeus"
-  version "0.9.1"
+  version "0.9.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/dreadl0ck/zeus/releases/download/v0.9.1/zeus_0.9.1_darwin_amd64.tar.gz"
-    sha256 "627586652fc54b496ff97261cb61b78eb9c03cb4d71e0f5e7feb676e6b1d72cb"
+    url "https://github.com/dreadl0ck/zeus/releases/download/v0.9.2/zeus_0.9.2_darwin_amd64.tar.gz"
+    sha256 "18478677c31b5ef4eb5638e1f892f456dc6b7b249f7c352a06e094e7afbe53b0"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/dreadl0ck/zeus/releases/download/v0.9.1/zeus_0.9.1_linux_amd64.tar.gz"
-    sha256 "0d0bb86045baec33c056b24cac7f90744a7548cdd65a9ae99cd2f51a661424e4"
+    url "https://github.com/dreadl0ck/zeus/releases/download/v0.9.2/zeus_0.9.2_linux_amd64.tar.gz"
+    sha256 "deb7f4bc283e21d858acfe7eb5ff6ef68f18d22effe1398c0d1d4566cdbd0809"
   end
 
   def install
