@@ -2,23 +2,16 @@
 class Netcap < Formula
   desc "A framework for secure and scalable network traffic analysis"
   homepage "https://github.com/dreadl0ck/netcap"
-  version "0.4.7"
+  version "0.6.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/dreadl0ck/netcap/releases/download/v0.4.7/netcap_0.4.7_darwin_amd64.tar.gz"
-    sha256 "4627ca7abcb6b98d3e4f900459681af32a55f64cf2471f6956eb68ba578b559f"
-  elsif OS.linux?
+    url "https://github.com/dreadl0ck/netcap/releases/download/v0.6.1/netcap_0.6.1_darwin_amd64.tar.gz"
+    sha256 "2ec1ff00dce927c98d9355572b91dc1cbb159051febc7f42bd5f6e4e93c53480"
   end
 
   def install
-    bin.install "net.capture"
-    bin.install "net.util"
-    bin.install "net.label"
-    bin.install "net.collect"
-    bin.install "net.agent"
-    bin.install "net.proxy"
-    bin.install "net.export"
-    bin.install "net.dump"
+    bin.install "net"
+    bin.install "macOS_nodpi/net"
   end
 end
