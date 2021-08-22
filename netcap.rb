@@ -6,8 +6,8 @@ class Netcap < Formula
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/dreadl0ck/netcap/releases/download/v0.6.2/netcap_macOS_nodpi_0.6.2_darwin_amd64.tar.gz"
-    sha256 "f5c158c0500157f76a00d3cd8f7525ca3cf859a2db9639187ff9f2f4276b3c16"
+    url "https://github.com/dreadl0ck/netcap/releases/download/v0.6.2/netcap_0.6.2_darwin_amd64.tar.gz"
+    sha256 "ae30da25e8abc4849feffc5f98f635cd3534d6281ae68351c8000f7089bd2f83"
   end
 
   def install
