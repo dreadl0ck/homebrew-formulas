@@ -5,13 +5,13 @@
 class Netcap < Formula
   desc "A framework for secure and scalable network traffic analysis"
   homepage "https://github.com/dreadl0ck/netcap"
-  version "0.6.7"
+  version "0.6.8"
   depends_on :macos
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/dreadl0ck/netcap/releases/download/v0.6.7/netcap_0.6.7_darwin_amd64.tar.gz"
-      sha256 "181785f2d3ea74ccb60df52304271b4be2779db17c6800622ffa2311bc11642b"
+      url "https://github.com/dreadl0ck/netcap/releases/download/v0.6.8/netcap_0.6.8_darwin_amd64.tar.gz"
+      sha256 "2962fe6ce3a03cf3f65928f8b2f34b45a80d838c5f1d4b83a4a081ad8f8efc07"
 
       def install
         bin.install "macOS_nodpi/net"
