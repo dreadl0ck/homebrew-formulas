@@ -5,20 +5,20 @@
 class Zeus < Formula
   desc "An Electrifying Build System"
   homepage "https://github.com/dreadl0ck/zeus"
-  version "0.9.11"
+  version "0.9.12"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/dreadl0ck/zeus/releases/download/v0.9.11/zeus_0.9.11_darwin_arm64.tar.gz"
-      sha256 "ced902711b92fc719692b29909e2092cc1ebf87ae0afd3c58b1ab3f70b9ba251"
+      url "https://github.com/dreadl0ck/zeus/releases/download/v0.9.12/zeus_0.9.12_darwin_arm64.tar.gz"
+      sha256 "abe18f01329271eb0df6270d365f17172c93cd520dfacb9c663417eed57bb932"
 
       def install
         bin.install "zeus"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/dreadl0ck/zeus/releases/download/v0.9.11/zeus_0.9.11_darwin_amd64.tar.gz"
-      sha256 "8f945d7ddb20ae808a7bfc24601b4025c3fbd1d975808d74ef8914817f1417ec"
+      url "https://github.com/dreadl0ck/zeus/releases/download/v0.9.12/zeus_0.9.12_darwin_amd64.tar.gz"
+      sha256 "cd2aca80937e4372a46a4de701749b85d6bac36f8e297686bb1796c9d87405ba"
 
       def install
         bin.install "zeus"
@@ -28,16 +28,16 @@ class Zeus < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/dreadl0ck/zeus/releases/download/v0.9.11/zeus_0.9.11_linux_arm64.tar.gz"
-      sha256 "dd55e92c7d9d48912e695c19f5dbe06b91cba1efd1dbd0e1b323f610708f1d45"
+      url "https://github.com/dreadl0ck/zeus/releases/download/v0.9.12/zeus_0.9.12_linux_arm64.tar.gz"
+      sha256 "562a7573d4ed9d889b07af938147947ae19ca362695c4cd82a08ac813f380799"
 
       def install
         bin.install "zeus"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/dreadl0ck/zeus/releases/download/v0.9.11/zeus_0.9.11_linux_amd64.tar.gz"
-      sha256 "38a13151db13c9cf8593ef90e2e7c26087c64456d6426de5100bb0cbf9a4db74"
+      url "https://github.com/dreadl0ck/zeus/releases/download/v0.9.12/zeus_0.9.12_linux_amd64.tar.gz"
+      sha256 "97f230abe4cef9859cc9e77d88f432eb0800e8eac6b94c617029f5253e9be13a"
 
       def install
         bin.install "zeus"
