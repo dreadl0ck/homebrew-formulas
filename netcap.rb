@@ -5,13 +5,13 @@
 class Netcap < Formula
   desc "A framework for secure and scalable network traffic analysis"
   homepage "https://github.com/dreadl0ck/netcap"
-  version "0.10.3"
+  version "0.10.4"
   depends_on :macos
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/dreadl0ck/netcap/releases/download/v0.10.3/netcap-v0.10.3-darwin-arm64.tar.gz"
-      sha256 "6f002ad6b17e3669e2177b5b38266ae5545574cd52ecb9f501442d4498442822"
+      url "https://github.com/dreadl0ck/netcap/releases/download/v0.10.4/netcap-v0.10.4-darwin-arm64.tar.gz"
+      sha256 "534020f018d6d9210f24dfac3c1fe791b4bb5e9785859832bd639c982d8cfbbb"
 
       def install
         bin.install "net"
