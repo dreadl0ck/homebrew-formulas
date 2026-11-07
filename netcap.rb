@@ -5,13 +5,13 @@
 class Netcap < Formula
   desc "A framework for secure and scalable network traffic analysis"
   homepage "https://github.com/dreadl0ck/netcap"
-  version "0.15.2"
+  version "0.15.3"
   depends_on :macos
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/dreadl0ck/netcap/releases/download/v0.15.2/netcap-v0.15.2-darwin-arm64.tar.gz"
-      sha256 "868cc731dd6fdcc945385db23e5dc8851f624f43922c76d014a7da41eb6418e6"
+      url "https://github.com/dreadl0ck/netcap/releases/download/v0.15.3/netcap-v0.15.3-darwin-arm64.tar.gz"
+      sha256 "071c157876f28af2ce9886e09e132abf2baf0e21cf9ee1c5273c7c639fcbc08b"
 
       def install
         odie "Netcap DPI requires macOS 26 or newer; use the nodpi archive on macOS 15" if MacOS.version < :tahoe
